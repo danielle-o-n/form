@@ -16,10 +16,8 @@ nunjucks.configure("view", {
 })
 
 
-app.listen(process.env.PORT || 5000, function(){
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-  });
-// servidor.listen(5000,()=>{
-//     console.log("server is run");
-// })
+
+servidor.listen(5000,()=>{
+    console.log("server is run");
+})
 
