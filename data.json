@@ -1,0 +1,39 @@
+{
+  "instuctors": [
+    {
+      "avatar_url": "https://haha",
+      "name": "dani",
+      "birth": 1640304000000,
+      "gender": "F",
+      "services": "df, fa, thye",
+      "id": 1,
+      "created_at": 1641401566859
+    },
+    {
+      "endereco": "Rua N2, qd. 393, lt. 15",
+      "bairro": "cidade jardim",
+      "cidade": "Brasília",
+      "birth": 915062400000,
+      "id": 2,
+      "idade": "23",
+      "cpf": "041.382.262-14",
+      "rg": "1145236",
+      "gender": "F",
+      "natal": "Anapolis",
+      "celular": "(61)9821-75345",
+      "email": "danielle.o.n@hotmail.com",
+      "horarioDisponivel": "Manhã",
+      "horarioTrabalho": "09:00",
+      "empregado": "Sim",
+      "ecola": "UNIPLAN",
+      "serie": "7",
+      "turno": "MANHÃ",
+      "camisa": "P",
+      "calca": "P",
+      "saia": "P",
+      "blusa": "P",
+      "sapato": "36",
+      "obs": "QUERO QUE FUNCIONE"
+    }
+  ]
+}

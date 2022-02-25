@@ -1,0 +1,193 @@
+{% extends "layout.njk" %}
+
+{% block conteudo %}
+    <form class="card" method="post" action="/instructors">
+                <section class="details">
+                <h3 id="titulo">INSCRIÇÕES FANFARRA - 2022</h3>
+                <div class="item">
+                    <div>
+                        Nome
+                    </div>
+                    <input type="text" name="nome" >
+                </div>
+                <div class="item">
+                    <div>
+                        Endereço
+                    </div>
+                    <input type="text" name="endereco" >
+                </div>
+                <div class="junto">
+                <div class="item">
+                    <div>
+                        Bairro
+                    </div>
+                    <input type="text" name="bairro" >
+                </div>
+                <div class="item">
+                    <div>
+                        Cidade
+                    </div>
+                    <input type="text" name="cidade" >
+                </div>
+                </div>
+                <div class="junto">
+                <div class="item">
+                    <div>
+                        Data de nascimento
+                    </div>
+                    <input type="date" name="birth">
+                </div>
+                <div class="item">
+                    <div>
+                        Idade
+                    </div>
+                    <input type="text" name="idade" >
+                </div>
+                </div>
+                <div class="junto">
+                    <div class="item">
+                        <div>
+                            CPF
+                        </div>
+                        <input type="text" name="cpf">
+                    </div>
+                    <div class="item">
+                        <div>
+                            RG
+                        </div>
+                        <input type="text" name="rg" >
+                    </div>
+                    </div>
+                    <div class="item">
+                        <div>
+                            Sexo
+                        </div>
+                        <div>
+                            <span><input type="radio" name="gender" value="M" checked >Masculino</span>
+                            <span><input type="radio" name="gender" value="F">Feminino</span>
+                        </div>
+                    </div>
+                    <div class="junto">
+                        <div class="item">
+                            <div>
+                                Naturalidae
+                            </div>
+                            <input type="text" name="natal">
+                        </div>
+                        <div class="item">
+                            <div>
+                                Celular
+                            </div>
+                            <input type="text" name="celular" >
+                        </div>
+                        </div>
+                         <div class="item">
+                            <div>
+                                E-mail
+                            </div>
+                            <input type="email" name="email" placeholder="@exemplo.com">
+                        </div>        
+                        <div class="item">
+                            <div>
+                                Disponibilidade de horário 
+                            </div>
+                            <div>
+                                <span><input type="radio" name="horarioDisponivel" value="Manhã" checked >Manhã</span>
+                                <span><input type="radio" name="horarioDisponivel" value="Tarde">Tarde</span>
+                                <span><input type="radio" name="horarioDisponivel" value="Noite">Noite</span>
+                            </div>
+                        </div>
+                        <div class="junto">
+                            <div class="item">
+                                <div>
+                                    Trabalha   
+                                </div>
+                                <div>
+                                    <span><input type="radio" name="empregado" value="Sim" checked >Sim</span>
+                                    <span><input type="radio" name="empregado" value="Tarde">Não</span>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div>
+                                    Caso sim, qual horário?
+                                </div>
+                                <input type="time" name="horarioTrabalho">
+                            </div>
+                        </div>
+                    <h3>ECOLARIDADE</h3>
+                <div class="item">
+                    <div>
+                        Escola
+                    </div>
+                    <div>
+                        <input type="text" name="ecola" >
+                    </div>
+                </div>
+                <div class="junto">
+                    <div class="item">
+                        <div>
+                            Série
+                        </div>
+                        <input type="text" name="serie">
+                    </div>
+                    <div class="item">
+                        <div>
+                            Turno
+                        </div>
+                        <input type="text" name="turno" >
+                    </div>
+                    </div>
+                    <h3>DADOS COMPLEMENTARES</h3>
+                <div class="item">
+                    <div>
+                        Camiseta
+                    </div>
+                    <div>
+                        <input type="text" name="camisa" >
+                    </div>
+                </div>
+                <div class="junto">
+                    <div class="item">
+                        <div>
+                            Calça
+                        </div>
+                        <input type="text" name="calca">
+                    </div>
+                    <div class="item">
+                        <div>
+                            Saia
+                        </div>
+                        <input type="text" name="saia" >
+                    </div>
+                    </div>
+                    <div class="junto">
+                        <div class="item">
+                            <div>
+                                Blusa
+                            </div>
+                            <input type="text" name="blusa">
+                        </div>
+                        <div class="item">
+                            <div>
+                                Sapato
+                            </div>
+                            <input type="text" name="sapato" >
+                        </div>
+                        </div>
+                        <div class="item">
+                            <div>
+                                OBSERVAÇÃO:
+                            </div>
+                            <input type="text" name="obs" >
+                        </div>
+
+                 <button type="submit" >Salvar</button>
+                 <div class="junto">
+                     <a class="dow" href="docs/FANFARRA 2022 - EDITAL INSCRIÇÃO - Final.pdf">Edital</a>
+                     <button class="dow">Ficha de inscrição</button>
+                     <button class="dow">Termo de responsabilidade</button>
+                 </div>
+
+            </section>
+    </form>
+{% endblock %}
